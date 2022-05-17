@@ -22,7 +22,7 @@ $calName: ".color-calendar";
 #{$calName} .calendar__header {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(7, minmax(20px, 55px));
+  grid-template-columns: repeat(7, minmax(20px, 65px));
   font-family: var(--cal-font-family-header);
 }
 
@@ -91,7 +91,7 @@ $calName: ".color-calendar";
 
 #{$calName} .calendar__weekdays {
   display: grid;
-  grid-template-columns: repeat(7, minmax(20px, 55px));
+  grid-template-columns: repeat(7, minmax(20px, 65px));
   margin-bottom: 5px;
   font-family: var(--cal-font-family-weekdays);
 
@@ -103,7 +103,7 @@ $calName: ".color-calendar";
 
 #{$calName} .calendar__days {
   display: grid;
-  grid-template-columns: repeat(7, minmax(20px, 55px));
+  grid-template-columns: repeat(7, minmax(20px, 65px));
   grid-template-rows: repeat(6, minmax(30px, 40px));
   font-family: var(--cal-font-family-body);
 
